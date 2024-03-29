@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "C_1808")(type "KiCad")(uri "${KIPRJMOD}/libs/C_1808")(options "")(descr ""))
+  (lib (name "ESP32_S3_MINI_1_N8")(type "KiCad")(uri "${KIPRJMOD}/libs/ESP32_S3_MINI_1_N8")(options "")(descr ""))
+  (lib (name "F0505S-1WR3")(type "KiCad")(uri "${KIPRJMOD}/libs/F0505S-1WR3")(options "")(descr ""))
+  (lib (name "IDC5020ER330M")(type "KiCad")(uri "${KIPRJMOD}/libs/IDC5020ER330M")(options "")(descr ""))
+  (lib (name "LPJ4112CNL")(type "KiCad")(uri "${KIPRJMOD}/libs/LPJ4112CNL")(options "")(descr ""))
+  (lib (name "tx4138")(type "KiCad")(uri "${KIPRJMOD}/libs/tx4138")(options "")(descr ""))
+  (lib (name "WE-7499210121A")(type "KiCad")(uri "${KIPRJMOD}/libs/WE-7499210121A")(options "")(descr ""))
+  (lib (name "libs")(type "KiCad")(uri "${KIPRJMOD}/libs")(options "")(descr ""))
+  (lib (name "usb-a")(type "KiCad")(uri "${KIPRJMOD}/libs/usb-a.pretty")(options "")(descr ""))
+)

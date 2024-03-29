@@ -1,0 +1,214 @@
+(footprint "usb-a-U-A-24DD-W-9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.84 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca46dc6d-774b-4498-8a3f-5e7de5a973dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "usb-a-U-A-24DD-W-9"
+		(at -0.06 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e38a8be-1e55-48bb-bae7-3e8159bb3a47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1.06 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9fa4da3-f447-4550-91f1-a2bb9e5fd88d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.06 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b70e32d-1ff2-49b1-92fa-8a6b8b66b579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.06 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37f4c50d-21f9-430a-8125-c89dbd83224d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.9 -6.6)
+		(end -0.65 -6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f27cac1-424a-4e78-8866-371d861d9e3a")
+	)
+	(fp_line
+		(start -2.9 6.6)
+		(end -2.9 -6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e4e51208-cb2c-4c0a-92af-d6ea3c4cbf8f")
+	)
+	(fp_line
+		(start -2.9 6.6)
+		(end -0.53 6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "854d35f2-38b9-4d7d-b80f-7d48b3013604")
+	)
+	(fp_line
+		(start 2.9 6.6)
+		(end 2.9 -6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a5da377-3e39-4be2-9694-3e12c0946230")
+	)
+	(fp_line
+		(start -3.87 -8.05)
+		(end 3.82 -8.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba0d2203-a81e-4cf5-a555-0e152fea8fdb")
+	)
+	(fp_line
+		(start -3.87 7.99)
+		(end -3.87 -8.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ead6a9a-cf8c-47d4-98ed-6df4221bbe68")
+	)
+	(fp_line
+		(start 3.82 -8.05)
+		(end 3.82 7.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15341ea7-8f8e-488c-9ad2-57a00f86bd95")
+	)
+	(fp_line
+		(start 3.82 7.99)
+		(end -3.87 7.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb6bf754-ce01-4ae7-b155-58db4ef3a642")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.44 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "44d3f7a3-5338-4187-a0b3-376e1b16ee8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.06 3.5 90)
+		(size 1.3 1.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3361f85a-490b-48ed-b65d-26724470e752")
+	)
+	(pad "2" thru_hole circle
+		(at -1.06 1 90)
+		(size 1.3 1.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59415d82-2e8d-49bc-8e87-b3cc8cbbef54")
+	)
+	(pad "3" thru_hole circle
+		(at -1.06 -1 90)
+		(size 1.3 1.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "329f40c0-185b-4a96-bbb2-dbdbe6e519ef")
+	)
+	(pad "4" thru_hole circle
+		(at -1.06 -3.5 90)
+		(size 1.3 1.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "484de7ba-20ba-49a0-b13f-092a40cfe943")
+	)
+	(pad "5" thru_hole circle
+		(at 1.04 -6.45 90)
+		(size 2.9 2.9)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fdee2f1b-74b1-4608-a19f-2d419775a5e7")
+	)
+	(pad "5" thru_hole circle
+		(at 1.04 6.45 90)
+		(size 2.9 2.9)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37c3c52f-feca-47c2-8648-45af5b5cb5be")
+	)
+	(group ""
+		(uuid "a32bc2d0-8561-42d1-a605-06adf106b100")
+		(members "37c3c52f-feca-47c2-8648-45af5b5cb5be" "fdee2f1b-74b1-4608-a19f-2d419775a5e7")
+	)
+)
